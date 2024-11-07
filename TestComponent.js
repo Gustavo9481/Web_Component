@@ -8,6 +8,7 @@ class TestComponent extends BaseComponent {
 
     template() {
         return html`
+            <img src="./GUScode-logo.svg" alt="logo guscode" />
             <h2>Hello World!</h2>
             <p>GUScode -> Este es un párrafo de web component</p>
         `;
